@@ -16,7 +16,7 @@ This library is ideal for Martian mission planning, hypothetical scheduling on M
 Clone the repository and install locally:
 
 ```bash
-git clone https://github.com/SoonHQ/MCT.git
+git clone https://github.com/SoonHQ/MarsTime.git
 cd MCT
 pip install .
 ```
