@@ -65,7 +65,9 @@ class MarsTime:
 
     def difference(self, other):
         """Calculate the difference between two MarsTime instances in sols and time."""
-        total_seconds_self = (self.sol * self.MARS_SECONDS_PER_SOL + 
+        total_seconds_self = (self.sol
+
+ * self.MARS_SECONDS_PER_SOL + 
                               self.hours * 3698.9685 + self.minutes * 61.649475 + self.seconds)
         total_seconds_other = (other.sol * self.MARS_SECONDS_PER_SOL + 
                                other.hours * 3698.9685 + other.minutes * 61.649475 + other.seconds)
