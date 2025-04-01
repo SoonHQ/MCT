@@ -13,15 +13,13 @@ This library is ideal for Martian mission planning, hypothetical scheduling on M
 
 ## Installation
 
-Clone the repository and install locally:
+Clone the repository or download `mct.py` directly:
 
 ```bash
 git clone https://github.com/SoonHQ/MarsTime.git
-cd MCT
-pip install .
 ```
-
-Alternatively, copy `mct.py` directly into your project.
+Then, copy mct.py into your project directory and import it as needed.
+Alternatively, download mct.py from the releases page or the repository’s main page and place it in your project.
 
 ## Usage
 
